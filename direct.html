@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
         rel="stylesheet">
 
-    <title>Newsletter</title>
+    <title>Datos envio</title>
 
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/fontawesome.css">
@@ -48,10 +48,10 @@
                         <li class="nav-item">
                             <a class="nav-link" href="about.html">Nosotros</a>
                         </li>
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="news.html">Newsletter</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item active">
                             <a class="nav-link" id="cesta" href="pagar.html"><svg width="32" height="32"
                                     viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -72,24 +72,55 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-heading">
-                        <h2><b>Newsletter</b></h2>
+                        <h2><b>Dirección</b></h2>
                     </div>
                 </div>
                 <div class="col-md-12">
                     <div class="product-item">
                         <div class="down-content">
-                            <p>Muchas gracias por darnos tu correo, estamos seguros que no te vas a arrepentir :) .</p>
-                            
+                            <h3>Por favor facilitanos los datos de envio</h3><br>
+                            <div class="contact-form">
+                                <form id="envio" action="" method="post">
+                                    <fieldset>
+                                        <input class="contact-form-input" placeholder="Nombre y Apellidos" type="text"
+                                            tabindex="1" required autofocus>
+                                    </fieldset>
+                                    <fieldset>
+                                        <input class="contact-form-input" placeholder="email de contacto" type="email"
+                                            tabindex="2" required>
+                                    </fieldset>
+                                    <fieldset>
+                                        <input class="contact-form-input"
+                                            placeholder="Dirección a la que enviamos el paquete" type="text"
+                                            tabindex="3" required>
+                                    </fieldset>
+                                    <fieldset>
+                                        <input class="contact-form-input" placeholder="Portal/escalera, puerta y piso"
+                                            type="text" tabindex="4" required>
+                                    </fieldset>
+                                    <fieldset>
+                                        <input class="contact-form-input" placeholder="Codigo postal" type="text"
+                                            tabindex="4" required>
+                                    </fieldset>
+                                    <fieldset>
+                                        <textarea class="contact-form-textarea" placeholder="Algo que debamos saber"
+                                            tabindex="5" required></textarea>
+                                    </fieldset>
+                                    <fieldset>
+                                        <button class="verrosa" name="Confirmar" type="submit" id="confirmar-envio"
+                                            data-submit="...Sending"><a href="tarjeta.html" class="nada
+                                            ">Confirmar datos</a> </button>
+                                    </fieldset>
+
+                                </form>
+                            </div>
                         </div>
-
                     </div>
-
-
                 </div>
             </div>
         </div>
     </div>
-    </div>
+
 
 
 
