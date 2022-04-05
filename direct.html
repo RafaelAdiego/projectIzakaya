@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
         rel="stylesheet">
 
-    <title>Newsletter</title>
+    <title>Datos envio</title>
 
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/fontawesome.css">
@@ -78,26 +78,30 @@
                 <div class="col-md-12">
                     <div class="product-item">
                         <div class="down-content">
-                            <p>Por favor facilitanos los datos de envio</p>
-                            <form action="tarjeta.html" method="POST"
-                                class="" style="padding: 10px"
-                                 name="form" _lpchecked="1">
-                                <div class="col-product-item product-item down-content">
-                                    <label for="" class="" wfd-invisible="true">Introduce
-                                        tu dirección:</label>
-                                    <input type="text" placeholder="dirección" id="direccion" name="direccion"
-                                        class="col-md-12 product-item" required="">
-                                    <div class="">
-                                        <input type="checkbox" id="agree-c06a" name="agree" class="" required="">
-                                        <label for="agree-c06a" class="u-label u-text-body-alt-color">&nbsp;¿Estás
-                                            seguro?</label>
-                                    </div>
-                                   
-                                       <a href="newsok.html" class="entrar">enviame tu newsletter</a>
-                                       
-                                    
-                                    <input type="hidden" value="nepe" name="recaptchaResponse" wfd-invisible="true">
-                            </form> <br>
+                            <h3>Por favor facilitanos los datos de envio</h3><br>
+                            <div class="contact-form">  
+                                <form id="envio" action="" method="post">
+                                  <fieldset>
+                                    <input class="contact-form-input" placeholder="Your name" type="text" tabindex="1" required autofocus>
+                                  </fieldset>
+                                  <fieldset>
+                                    <input class="contact-form-input" placeholder="Your Email Address" type="email" tabindex="2" required>
+                                  </fieldset>
+                                  <fieldset>
+                                    <input class="contact-form-input" placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+                                  </fieldset>
+                                  <fieldset>
+                                    <input class="contact-form-input" placeholder="Your Web Site (optional)" type="url" tabindex="4" required>
+                                  </fieldset>
+                                  <fieldset>
+                                    <textarea class="contact-form-textarea" placeholder="Algo que debamos saber" tabindex="5" required></textarea>
+                                  </fieldset>
+                                  <fieldset>
+                                    <button class="verrosa" name="Confirmar" type="submit" id="confirmar-envio" data-submit="...Sending">Confirmar datos</button>
+                                  </fieldset>
+                                  
+                                </form>
+                              </div>
                         </div>
 
                     </div>

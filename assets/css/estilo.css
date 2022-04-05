@@ -745,40 +745,42 @@ footer .inner-content p a {
 	margin-top: 100px;
 }
 
-.contact-form input {
+.contact-form-input {
+	text-align: center;
 	font-size: 14px;
-	width: 100%;
+	width: 40%;
 	height: 44px;
 	display: inline-block;
 	line-height: 42px;
-	border: 1px solid #eee;
-	border-radius: 0px;
+	border: 4px solid #ffe9f5;
+	border-radius:28px;
 	margin-bottom: 30px;
 }
 
-.contact-form input:focus {
+.contact-form-input:focus {
 	box-shadow: none;
-	border: 1px solid #eee;
+	border: 1px solid #ffe9f5;
 }
 
-.contact-form textarea {
+.contact-form-textarea {
+	text-align: center;
 	font-size: 14px;
-	width: 100%;
-	min-width: 100%;
+	width: 50%;
+	min-width: 50%;
 	min-height: 120px;
 	height: 120px;
 	max-height: 180px;
-	border: 1px solid #eee;
-	border-radius: 0px;
+	border: 4px solid #ffe9f5;
+	border-radius:28px;
 	margin-bottom: 30px;
 }
 
-.contact-form textarea:focus {
+.contact-form-textarea:focus {
 	box-shadow: none;
-	border: 1px solid #eee;
+	border: 1px solid #ffe9f5;
 }
 
-.contact-form button.filled-button {
+.contact-form-button.filled-button {
 	background-color: #b6833d;
 	color: #fff9fc;
 	font-size: 14px;
@@ -793,7 +795,7 @@ footer .inner-content p a {
 	cursor: pointer;
 }
 
-.contact-form button.filled-button:hover {
+.contact-form-button.filled-button:hover {
 	background-color: #121212;
 	color: #fff9fc;
 }
